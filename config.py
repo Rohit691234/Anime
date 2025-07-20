@@ -23,7 +23,7 @@ class Var:
     PROTECT_CONTENT = True if getenv('PROTECT_CONTENT', "False") == "True" else False 
     BACKUP_CHANNEL = int(getenv("BACKUP_CHANNEL", "0"))
     LOG_CHANNEL = int(getenv("LOG_CHANNEL", "0"))
-    MAIN_CHANNEL = int(getenv("MAIN_CHANNEL", "0"))
+    MAIN_CHANNEL = int(getenv("MAIN_CHANNEL", "-1002827963898"))
     FILE_STORE = int(getenv("FILE_STORE", "0"))
     ADMINS = list(map(int, getenv("ADMINS", "1242011540").split()))
 
