@@ -13,10 +13,10 @@ class Var:
     BOT_TOKEN = getenv("BOT_TOKEN")
     DB_URI = getenv("DB_URI")
     DB_NAME = getenv("DB_NAME")
-    BAN_SUPPORT = getenv("BAN_SUPPORT", "https://t.me/V_Sbotmaker")
+    BAN_SUPPORT = getenv("BAN_SUPPORT", "https://t.me/ROHITREDDY69")
     FSUB_LINK_EXPIRY = int(getenv("FSUB_LINK_EXPIRY", "120"))
     CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002807789517"))
-    MHCHANNEL_URL = getenv("MHCHANNEL_URL", "https://t.me/Animeworld_zone")
+    MHCHANNEL_URL = getenv("MHCHANNEL_URL", "https://t.me/ANIELITETELUGU")
     ANIME = getenv("ANIME", "Is It Wr2131ong to Try to Pi123ck Up Girls in a Dungeon?")
     CUSTOM_BANNER = getenv("CUSTOM_BANNER", "https://envs.sh/im5.jpg")
 
