@@ -68,7 +68,7 @@ async def start_msg(client: Client, message: Message):
             return await not_joined(client, message)
     except Exception as e:
         logger.error(f"Error checking subscription for user {user_id}: {e}")
-        await editMessage(temp, "<b>❌ Error checking channel subscription. Please try again or contact @V_Sbotmaker.</b>")
+        await editMessage(temp, "<b>❌ Error checking channel subscription. Please try again or contact @ROHITREDDY69.</b>")
         return
 
     # Add user to database if not present
@@ -85,7 +85,7 @@ async def start_msg(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("•⚡️ ᴍᴀɪɴ ʜᴜʙ •", url=Var.MHCHANNEL_URL)],
             [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data="about"), InlineKeyboardButton('ʜᴇʟᴘ •', callback_data="help")],
-            [InlineKeyboardButton("•👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/V_Sbotmaker")]
+            [InlineKeyboardButton("•👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/ROHITREDDY69")]
         ])
 
         smsg = botmaker.START_MSG.format(
@@ -258,7 +258,7 @@ async def not_joined(client: Client, message: Message):
                     logger.error(f"Error with chat {chat_id}: {e}")
                     return await editMessage(
                         temp,
-                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @V_Sbotmaker</i></b>\n"
+                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @ROHITREDDY69</i></b>\n"
                         f"<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>"
                     )
         if count == 0:
@@ -286,7 +286,7 @@ async def not_joined(client: Client, message: Message):
         logger.error(f"Error in not_joined: {e}")
         await editMessage(
             temp,
-            f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @V_Sbotmaker</i></b>\n"
+            f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @ROHITREDDY69</i></b>\n"
             f"<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>"
         )
     finally:
