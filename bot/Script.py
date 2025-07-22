@@ -5,7 +5,7 @@ class botmaker(object):
 
     FORCE_MSG = """ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>"""
 
-    HELP_TXT = """<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ @Animeworld_zone
+    HELP_TXT = """<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ @OtakuStreamZone
 
 ❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs
 ├ /start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
@@ -15,9 +15,9 @@ class botmaker(object):
 sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ, ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ — ᴛʜᴀᴛ'ꜱ ɪᴛ.....!</blockquote></b>"""
 
     ABOUT_TXT = """<b><blockquote>
-◈ ᴄʀᴇᴀᴛᴏʀ: <a href="https://t.me/V_Sbotzmaker">Ꮇᴀꜱᴛᴇʀ</a>
-◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href="https://t.me/Animeworld_zone">Ꭺɴɪᴍᴇꪝᴏʀʟᴅ㊝ ᴢᴏɴᴇ</a>
-◈ Oɴɢᴏɪɴɢ Eɴɢ sᴜʙ/ᴅᴜʙ: <a href="https://t.me/+HXBJ4TFuqXA4Nzg1">Oɴɢᴏɪɴɢ Eɴɢʟɪsʜ Sᴜʙ Ꭺɴɪᴍᴇꪝᴏʀʟᴅ㊝</a>
+◈ ᴄʀᴇᴀᴛᴏʀ: <a href="https://t.me/ROHITREDDY69">ROHIT</a>
+◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href="https://t.me/ANIELITETELUGU">ANIELITETELUGU</a>
+◈ Oɴɢᴏɪɴɢ Eɴɢ sᴜʙ/ᴅᴜʙ: <a href="https://t.me/OtakuStreamZone">Oɴɢᴏɪɴɢ Eɴɢʟɪsʜ </a>
 </blockquote></b>"""
 
     CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
@@ -41,4 +41,4 @@ sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏ
     BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 
     # ✅ Custom Caption from environment
-    CUSTOM_CAPTION = os.getenv("CUSTOM_CAPTION", "<b>• ʙʏ @V_Sbotmaker</b>")
+    CUSTOM_CAPTION = os.getenv("CUSTOM_CAPTION", "<b></b>")
